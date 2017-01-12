@@ -1,0 +1,23 @@
+#navigation{
+	background: #2c3e50;
+}
+
+#navigation
+.top-bar-left
+.menu,
+#navigation
+.top-bar-right
+.menu{
+	background :#2c3e50;
+}
+
+#navigation
+.top-bar-left
+.menu
+.menu-text,
+#navigation
+.top-bar-right
+.menu
+.menu-text{
+	color: #fff;
+}
