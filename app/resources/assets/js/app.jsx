@@ -12,12 +12,15 @@ require('style!css!applicationStyles');
 
 // page components
 var Main = require('Main');
+var Countdown = require('Countdown');
+var Timer = require('Timer');
 
 // render application
 ReactDOM.render(
   	<Router history={HashHistory}>
    		<Route path="/" component={Main}>
-
+			<Route path="/countdown" component={Countdown}></Route>
+			<IndexRoute component={Timer}/>
   		</Route>
   	</Router>,
   	document.getElementById('app')
