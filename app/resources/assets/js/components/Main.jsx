@@ -7,7 +7,7 @@ const Main = (props) => {
 	return (
 	    <div>
 	    	<Nav/>
-	    	<div>
+	    	<div className="columns small-centered medium-6 large-4">
 	    		{props.children}
 	    	</div>
 	    </div>
