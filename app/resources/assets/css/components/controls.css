@@ -1,0 +1,11 @@
+.controls {
+	display:flex;
+	justify-content:center;
+}
+
+.controls
+.button {
+	width: 50%;
+	padding:15px;
+	margin:18px;
+}
