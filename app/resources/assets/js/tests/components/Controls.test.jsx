@@ -16,6 +16,7 @@ describe('Controls component', () =>
 	it('should have default property types', () =>
 	{
 		expect(Controls.propTypes.countdownStatus).toBe(React.PropTypes.string.isRequired);
+		expect(Controls.propTypes.onStatusChangeTo).toBe(React.PropTypes.func.isRequired);
 	});
 
 	describe('rendering component', () =>
