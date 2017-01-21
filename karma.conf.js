@@ -5,7 +5,11 @@ module.exports = function(config) {
 		browsers: ['Chrome'],
 		run: true,
 		frameworks: ['mocha'],
-		files: ['app/resources/assets/js/tests/**/*.test.jsx'],
+		files: [
+			'node_modules/jquery/dist/jquery.min.js',
+	    	'node_modules/foundation-sites/dist/js/foundation.min.js',
+			'app/resources/assets/js/tests/**/*.test.jsx'
+		],
 		preprocessors: {
 			'app/resources/assets/js/tests/**/*.test.jsx': ['webpack', 'sourcemap']
 		},
